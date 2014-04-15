@@ -1,0 +1,25 @@
+/*change font of every hyperlink*/
+/*every paragraph should have a certain font style*/
+p {
+	background: black;
+	color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+/*every hyperlink is pink*/
+a {
+	color:pink;
+}
+
+/*lets define an awesome class*/
+.awesome {
+	color:green;
+	font-size: 16;
+	background: red;
+}
+
+/*also give something an id*/
+#idTrial {
+	color:yellow;
+}
