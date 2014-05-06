@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+}
+
+#main-navigator {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+#content-area {
+	border-width: 1px;
+	/*border-style: dashed;*/
+	border-color: #666666;
+	/*margin-left: auto;*/
+	/*margin-right: 5px;*/
+	width: 80%;
+	/*position: relative;*/
+	/*top: 20px;*/
+	float: right;
+}
+nav ul {
+    /*list-style: none;*/
+    font-size: 100%;
+}
+
+nav a {
+	display:block;
+	width:120px;
+	padding:6px;
+	text-decoration:none;
+/*text-transform:uppercase;*/
+}
+
+nav a:hover,a:active {
+	font-weight:bold;
+}
+
+footer {
+	float: right;
+}
+

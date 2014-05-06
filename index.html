@@ -1,9 +1,66 @@
-<html>
+<!doctype html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<title>DBC Blogposts in HTML5</title>
+	<meta name="description" content="Welcome to my basic template.">
+	<link rel="stylesheet" href="stylesheets/index.css">
 </head>
+<nav id="main-navigator">
+	<ul>
+		<li><a href="#cultural">Cultural Blogo</a>
+			<ul>
+				<li><a href = "#cultural-1">Intro</a></li>
+				<li><a href="#cultural-8">Fireside chat</a></li>
+			</ul>
+		</li>
+		<li><a href="#technical">Technical Blogo</a>
+			<ul>
+				<li><a href="#technical-2">Javascript</a></li>
+				<li><a href="#technical-8">Dynamic Vs Static</a></li>
+			</ul></li>
+	</ul>
+</nav>
 <body>
-<h1>Hello!</h1>
+	<!-- <div id="wrapper"> -->
+	<header>
+		<h1>Welcome to my Blogojevich</h1>
+	</header>
+	<div id = "content-area">
+		
+		<section id="cultural">
+			<h2><a id="cultural">Cultural Blogo</a></h2>
+			<article>
+			<h3>Intro</h3>
+			<p>This is post number 1 - keeping it simple.</p>
+			</article>
+			
+			<article>
+				<h3><a id = "cultural-8">Fireside Chat</a></h3>
+				<p>I guess the idea is to help each other learn. Ask a gazillion questions. LEARN LEARN LEARN. Help everyone else learn. The onus is on me to be as interactive and as communicative as I can be. Stay emotionally aware. Feeling like I'm being owned should be viewed as a challenge. Try to stay in the learning mindset the whole time.</p>
 
+
+			</article>
+			
+		</section>
+		<section id="technical">
+			<h2><a id="technical">Technical Blogo</a></h2>
+			<article>
+				<h3><a id="technical-2">Week 2 Javascript</a></h3>
+			<p>So the question is, why is Javascript so damn popular? From random internet sources, it looks like back in the netscape days, javascript was duh bomb. But, it went out of fashion soon after, only to be brought back from the dead by Google through Gmail and Google maps. So how does the world use Javascript? Primary used as a scripting tool, javascript gets the browser to do all its dirty work. Being client-side, javascript code is written into an HTML page, which the browser receives and acts upon. As the focus in the world started shifting from developing native apps to web applications, javascript's ability to take care of the front-end, to deliver an awesome UX, came to the fore.
+			</p>
+			</article>
+			
+			<article>
+				<h3><a id="technical-8">Week 8 Dynamic vs Static languages</a></h3>
+			<p>What's the difference? Static languages perform type checking (on variables) during compile time, whereas dynamic languages do the same at runtime. Since dynamically typed languages make fewer compile-time checks on the source code than statically typed languages, unit testing becomes particularly important in the case of dynamic languages.</p>
+			</article>
+		</section>
+		
+	</div>
+	<footer>
+		<p>Some copyright and legal notices here. Maybe use the © symbol a bit.</p>
+	</footer>
+	<!-- </div> -->
+	
 </body>
 </html>
